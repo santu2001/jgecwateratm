@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Water ATM</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body >
+    <div id="div_main">
+  <div class="div1">
+     <div class="marquee">
+       <marquee>
+        Welcome To Jolu Water ATM
+      </marquee>
+     </div>
+     <div class="content">
+      <p>Access our <b> Water ATM</b><br> by <b>scanning the QR code</b></p>
+     </div>
+     
+      <input type="text" id="result" placeholder="Enter your phone number" max="10" required >
+      <button class="btn" type="submit"><a style="color: white; font-size: 20px; text-decoration: none;" href="page2.html"><b>Next</b></a></button>
+     
+     <div class="container">
+        <table>
+            <tr>
+              <td><input type="button" value="7" class="button" onClick="display('7')"></input></td> 
+              <td><input type="button" value="8" class="button" onClick="display('8')"></input></td>
+              <td><input type="button" value="9" class="button" onClick="display('9')"></input></td>
+              
+            </tr>
+            <tr>
+              <td><input type="button" value="4" class="button" onClick="display('4')"></input></td>
+              <td><input type="button" value="5" class="button" onClick="display('5')"></input></td>
+              <td><input type="button" value="6" class="button" onClick="display('6')"></input></td>
+              
+            </tr>
+            <tr>
+              <td><input type="button" value="1" class="button" onClick="display('1')"></input></td>
+              <td><input type="button" value="2" class="button" onClick="display('2')"></input></td>
+              <td><input type="button" value="3" class="button" onClick="display('3')"></input></td>
+              
+            </tr>
+            <tr>
+              <td><input type="button" value="Clear" class="button" onClick="display('')"></input></td>
+              <td><input type="button" value="0" class="button" onClick="display('0')"></input></td>
+              <td><input type="reset" value="reset" class="button" onclick=""></input></td>
+              
+            </tr>
+            
+        </table>
+      </div>
+      
+  </div>
+  </div>
+  <div class="div2">
+    
+  </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

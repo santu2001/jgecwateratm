@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="page2.css" />
+    <script>
+      document.getElementsByName("button").onclick = function () {
+        location.href = "page3-payment.html";
+      };
+    </script>
+  </head>
+  <body>
+    
+    <div id="wholecon" class="container">
+      <!-- Header section -->
+      <section id="header">
+        <div class="header">
+          <div class="marqueeUser">
+            <marquee behavior="" direction="" scrollamount=9 >WELCOME TO JOLU WATER ATM</marquee>
+          </div>
+          <div class="heading_line">
+            
+            <img
+              src="wateratm.png"
+              alt="Water ATM Image"
+              width="200"
+              height="200"
+            />
+
+            <h1 >Choose to fill</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- Header section end-->
+
+      <!--content section-->
+      <div id="contentId" class="content">
+        <div class="buttonset">
+          <input
+            type="button"
+            onClick="location.href='./qr.html'"
+            value="₹5 for 1L"
+          />
+          <input
+            type="button"
+            onClick="location.href='./qr.html'"
+            value="₹10 for 2L"
+          />
+        </div>
+        <div class="buttonset">
+          <input
+            type="button"
+            onClick="location.href='./qr.html'"
+            value="₹15 for 3L"
+          />
+          <input
+            type="button"
+            onClick="location.href='./qr.html'"
+            value="₹20 for 4L"
+          />
+        </div>
+      </div>
+
+      <!--content section end-->
+    </div>
+  </body>
+</html>
